@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#edf1eb" />
+  <meta name="description" content="Block Tower Challenge 소개와 게임 이용 방법. 탭으로 블록을 쌓아 최고 기록에 도전하세요." />
+  <title>게임 소개와 이용 방법 — Block Tower Challenge</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/icon.svg" />
+  <style>
+    :root{font-family:system-ui,sans-serif;color:#263e36;background:#edf1eb;line-height:1.8}
+    body{margin:0;padding:max(24px,env(safe-area-inset-top)) max(24px,env(safe-area-inset-right)) max(32px,env(safe-area-inset-bottom)) max(24px,env(safe-area-inset-left))}
+    main{max-width:660px;margin:4vh auto}h1{line-height:1.2;letter-spacing:-1px}h2{margin-top:32px;font-size:20px}p,li{font-size:16px}a{color:#345d4c}a:focus-visible{outline:3px solid #527d70;outline-offset:5px}.play{display:inline-block;padding:12px 24px;background:#263e36;color:#f3f5ef;border-radius:12px;text-decoration:none}footer{margin-top:40px;font-size:14px;color:#627568}
+  </style>
+</head>
+<body><main>
+  <img src="./assets/icon.svg" width="48" height="48" alt="" />
+  <h1>Block Tower Challenge</h1>
+  <p>타이밍에 맞춰 움직이는 3D 블록을 쌓는 모바일 웹게임입니다. 앱 설치나 회원가입 없이 브라우저에서 바로 플레이할 수 있습니다.</p>
+  <a class="play" href="./">게임 시작하기</a>
+  <h2>게임 이용 방법</h2>
+  <ol>
+    <li>START 버튼을 누르면 첫 번째 블록이 움직입니다.</li>
+    <li>화면을 한 번 탭하거나 마우스로 클릭해 배치하세요. 키보드 Space도 사용할 수 있습니다.</li>
+    <li>아래 블록과 겹친 부분만 남고 튀어나온 조각은 잘려 떨어집니다. 이동 방향은 X축과 Z축으로 번갈아 바뀝니다.</li>
+    <li>정확히 맞추면 PERFECT로 크기가 유지됩니다. 완전히 빗나가면 게임이 끝납니다.</li>
+    <li>성공한 블록 수가 FLOORS입니다. 기초 블록은 포함하지 않습니다. RETRY로 다시 도전하세요.</li>
+  </ol>
+  <h2>기록과 브라우저</h2>
+  <p>최고 기록은 이 브라우저의 localStorage에 저장됩니다. 기기·브라우저·접속 주소가 바뀌거나 저장소를 삭제하면 기록은 공유되지 않습니다. 저장이 차단되어도 해당 세션에서 계속 플레이할 수 있습니다. 온라인 공용 랭킹은 없습니다.</p>
+  <p>WebGL 2를 지원하는 최신 브라우저를 사용해 주세요. 모바일 세로 화면을 권장하며, 탭을 전환하면 게임 진행이 일시정지됩니다.</p>
+  <footer>현재 게임에는 광고 스크립트와 분석 도구가 연결되어 있지 않습니다.</footer>
+  <!-- Future published privacy policy link belongs in this footer once owner details are reviewed.
+       Future manual ad units belong outside the game canvas, with a separately reserved layout. -->
+</main></body>
+</html>

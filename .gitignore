@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.qa/
+test-results/
+playwright-report/
+*.local
+# Legacy local provider state stays excluded if it ever appears.
+.vercel/
+# Cloudflare local state and development secrets.
+.wrangler/
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.env.example
+*.log
